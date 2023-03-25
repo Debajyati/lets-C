@@ -30,6 +30,5 @@ int main() {
     } while (guess!=num);
     
 
-
     return 0;
 }
