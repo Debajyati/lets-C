@@ -13,6 +13,6 @@
  10. Find the range between which a number exists as per user's input.
  11. Reverse the digits of a number.
  12. Checking if a number is perfect number or not.
- 13. Print the digit count array from given inputs(i.e. {1, no. of 1 digit numbers,2,no. of 2 digit numbers,so on...}).
+ 13. Print the digit count array from given inputs(the output array i.e. {1, no. of 1 digit numbers,2,no. of 2 digit numbers,so on...}).
  14. Check if a number is even or odd using Booleans.
 
