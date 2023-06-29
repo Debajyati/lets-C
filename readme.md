@@ -21,9 +21,9 @@
 
  15. Checking if a number is perfect number or not.
 
-16.  Write a C -Program to swap two numbers without a using 3rd Variable.
+ 16.  Write a C -Program to swap two numbers without a using 3rd Variable.
  
-
+ 17.  A C program to calculate the sum and average of integers of an array of variable size (memory allocation will be continued unless any input rather than integers is given from stdin).
  
  
 
