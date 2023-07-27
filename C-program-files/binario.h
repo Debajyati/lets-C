@@ -3,9 +3,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-/*Converts a decimal positive integer into the corresponding binary number*/
+/*Converts a decimal integer into the corresponding binary number*/
 char* dci2bn(int num) {
-    /*Converts a decimal integer into the corresponding binary number*/
+    
     int div = abs(num), count = 0, res[100000];
     while (div > 0) {
         res[count] = div % 2;
@@ -33,7 +33,7 @@ char* dci2bn(int num) {
     return binary;
 }
 
-
+/*Converts a decimal float into the corresponding binary number*/
 char *dcf2bn(float num) {
     char *binary = (char *)malloc(35 * sizeof(char));
     int *intPtr = (int *)&num;
@@ -51,18 +51,5 @@ char *dcf2bn(float num) {
     binary[index] = '\0';
     return binary;
 }
-int bn2dci(char *binary_str) {
-    int result = 0;
-    int length = strlen(binary_str);
-    for (int i = 2; i < length; i++) {
-        if (binary_str[i] == '1') {
-            if (binary_str[0] == '1') {
-                result -= 1 << (length - i - 1);
-            } else {
-                result += 1 << (length - i - 1);
-            }
-        }
-    }
-    return result;
-}
+
 #endif
