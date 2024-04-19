@@ -7,10 +7,10 @@
  4.  Write a C -Program to check if a number is Even or odd.
  5. Write a C -Program to determine the nth term in the fibonacci sequence.
  6. Reverse the digits of a number.
- 7.  Write a program to convert numbers between decimal and binary representations, including decimal integers to binary, decimal floats to binary, and binary to decimal integers, ensuring accurate conversions and proper memory management.
+ 7.  An attempt to convert numbers between decimal and binary representations, including decimal integers to binary, decimal floats to binary, and binary to decimal integers, ensuring accurate conversions and proper memory management.
  8.  Print the digit count array from given inputs(the output array i.e. {1, no. of 1 digit numbers,2,no. of 2 digit numbers,so on...}).
  
- 9.  Find the range between which a number exists as per user's input.4
+ 9.  Find the range between which a number exists as per user's input.
 
  10.  Write a C -Program to check if a year is leap year or not.
  11.  Take a number as input and print it after left-shifting it by some number as per user's input.
