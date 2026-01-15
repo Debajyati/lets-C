@@ -1,15 +1,17 @@
 {
-  "name": "canvs",
+	"name": "wascreensaver",
   "version": "1.0.0",
-  "description": "Webassembly canvas project",
-  "main": "index.js",
+  "description": "Webassembly canvas screensaver animation",
   "author": "Debajyati Dey",
   "license": "MIT",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "private": false,
-  "dependencies": {
-    "express": "^5.2.1"
-  }
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler pages deploy",
+		"dev": "wrangler pages dev ./public/",
+		"start": "wrangler pages dev ./public/"
+	},
+	"devDependencies": {
+		"wrangler": "^4.59.2"
+	}
 }
+

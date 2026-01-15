@@ -1,0 +1,6 @@
+/favicon.ico
+  status: 200
+
+/*.wasm
+  Content-Type: application/wasm
+

@@ -29,8 +29,8 @@
 
         // clear existing circles to rerender circles
         context.clearRect(0, 0, canvas.width, canvas.height);
-        
-        // loop data and get circle chunks 
+
+        // loop data and get circle chunks
         for (let i=0;i<circles.length; i+=circleStructSize) {
           // get circle data chunk
           let circle = circles.slice(i, i+circleStructSize);
@@ -50,7 +50,7 @@
         // Request next animation frame and rerender with updated circles
         window.requestAnimationFrame(() => {
           render(dataLength, circleStructSize);
-        }); 
+        });
 
       }
     </script>
